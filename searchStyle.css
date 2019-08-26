@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    width: 95%;
+    margin: auto;
+}
+
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    height: 12vh;
+
+}
+
+.nav .right {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+}
+
+.nav .left {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+.gLogo{
+    display: block;
+    margin: auto;
+    width: 92px;
+    height: 30px;
+    margin-top: 8px;
+
+}
+
+.gSearch{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: center;
+    width: 90%;
+    border: 1px solid #dfe1e5;
+    border-radius: 200px;
+}
+
+.gSearch input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border: none;
+}
+
+.gSearch .contMic {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.gSearch .gMic{
+    background: url('//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+/* Search Icon */
+.gMag {
+    border: none;
+    background: none;
+    color: #4285f4;
+}
+
+.gMagWall {
+    fill: currentColor;
+}
+
+.gSearch .contWall {
+    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
+/* End of Search Icon */
+
+/* Beginning of Left */
+
+.gButton {
+    display: flex;
+    width: 100px;
+}
+
+.gButton button{
+    width: 90%;
+    height: 90%;
+    border: 1px solid #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 21px;
+    width: 21px;
+    margin: 10px 10px;
+}
+.box{
+    height: 4px;
+    width: 4px;
+    background: #3f4f57;
+    margin: 0.2px;
+    padding: 0.2px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Bottom Nav Section */
+
+nav .bottom {
+    height: 58px;
+    width: 782px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .bottom .gSearchBot {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40px;
+    height: 40px;
+    margin: 0px 12px 12px 10px;
+}
