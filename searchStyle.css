@@ -136,6 +136,11 @@ nav ul li a {
 
 /* Bottom Nav Section */
 
+.bottomClass {
+    width: 15px;
+    height: 15px;
+}
+
 nav .bottom {
     height: 58px;
     width: 782px;
@@ -148,7 +153,14 @@ nav .bottom {
 nav .bottom .gSearchBot {
     display: flex;
     flex-direction: row-reverse;
-    width: 40px;
-    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
     margin: 0px 12px 12px 10px;
+}
+
+nav .bottom .gSearchSpan {
+    font-family: 'Roboto', arial, sans-serif; 
+    font-size: 12px;
 }
